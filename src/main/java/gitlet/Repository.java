@@ -7,7 +7,9 @@ public class Repository {
   private final Path workTree;
   private final Path repoDir;
 
-  public Repository() { this(Paths.get(".")); }
+  public Repository() { 
+    this(Paths.get(".")); 
+  }
   public Repository(Path workTree) {
     this.workTree = workTree;
     this.repoDir  = workTree.resolve(".gitlet");
@@ -22,15 +24,18 @@ public class Repository {
     Files.createDirectories(repoDir.resolve("refs").resolve("heads"));
 
     Files.writeString(repoDir.resolve("HEAD"),  "ref: refs/heads/master\n", StandardOpenOption.CREATE_NEW);
-    Files.writeString(repoDir.resolve("index"), "",                         StandardOpenOption.CREATE_NEW);
+    Files.writeString(repoDir.resolve("index"), "", StandardOpenOption.CREATE_NEW);
 
-    // TODO: create the initial commit (message "initial commit", time=0L) and write its id:
+
     String initialId = writeInitialCommit(); // implement later
     Files.writeString(repoDir.resolve("refs/heads/master"), initialId + "\n", StandardOpenOption.CREATE_NEW);
   }
 
   // Public API (stubs for later)
-  public void add(String path) throws IOException {}
+  public void add(String path) throws IOException {
+    Files.createDirectories(repoDir.resolve(path));
+  }
+  
   public void commit(String message) throws IOException {}
   public void remove(String path) throws IOException {}
   public void status() throws IOException {}
