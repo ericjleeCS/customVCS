@@ -1,4 +1,4 @@
-package src.main.java.gitlet;
+package gitlet;
 public class Objectstore {
     
 }

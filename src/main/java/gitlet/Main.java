@@ -1,6 +1,6 @@
-package src.main.java.gitlet;
+package gitlet;
 public class Main{
     public static void main(String[] args){
-
+        
     }
 }

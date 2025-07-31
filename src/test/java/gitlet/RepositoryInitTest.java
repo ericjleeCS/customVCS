@@ -60,11 +60,5 @@ class RepositoryInitTest {
     assertEquals("ref: refs/heads/master", head);
   }
 
-  @Test
-  void addFiletoPath() throws Exception{
-    Repository repo = new Repository(tmp);
-    repo.init();
 
-    
-  }
 }

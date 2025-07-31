@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gitlet.HashingTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-07-31T07:28:26" hostname="Erics-MacBook-Air.local" time="0.009">
+  <properties/>
+  <testcase name="diffInputDiffOutput()" classname="gitlet.HashingTest" time="0.007"/>
+  <testcase name="emptyByteResultsInCorrectHash()" classname="gitlet.HashingTest" time="0.001"/>
+  <testcase name="sameInputSameOutput()" classname="gitlet.HashingTest" time="0.0"/>
+  <testcase name="abcReturnsExpectedSha()" classname="gitlet.HashingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,6 +1,9 @@
 plugins {
   id 'java'
+  id 'com.adarshr.test-logger' version '4.0.0'
 }
+
+testlogger { theme 'plain'; showPassed true; showSkipped true; showFailed true }
 
 repositories {
   mavenCentral()
