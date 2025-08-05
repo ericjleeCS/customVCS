@@ -148,12 +148,3 @@ java -cp build/classes/java/main gitlet.Main status   # sections empty (index cl
   java -cp build/classes/java/main gitlet.Main init
   ```
 
-## Roadmap (future commands)
-- `log`, `globalLog` — traverse commit graph
-- `checkout` — file, commit+file, branch
-- `branch`, `rm-branch`
-- `merge` with conflict handling
-- Abbrev resolution for short commit IDs
-
-## License
-MIT (or your choice)
