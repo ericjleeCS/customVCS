@@ -13,7 +13,7 @@ public class Blob {
 
     private Blob(byte[] content){
         this.content = Objects.requireNonNull(content, "content");
-        this.id = Hashing.sha1HashString(content);
+        this.id = Hashing.sha1(content);
     }
 
     public static Blob fromFile(Path path) throws IOException{

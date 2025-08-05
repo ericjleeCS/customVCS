@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 public class Hashing {
     private Hashing() {
     }
-    public static String sha1HashString(byte[] data){
+    public static String sha1(byte[] data){
         try{
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
             byte[] messageDigestAsByte = messageDigest.digest(data);

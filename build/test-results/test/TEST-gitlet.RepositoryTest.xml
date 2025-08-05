@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gitlet.RepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-05T19:46:26" hostname="Erics-MacBook-Air.local" time="0.029">
+  <properties/>
+  <testcase name="initCreatesRepoStructureAndHead()" classname="gitlet.RepositoryTest" time="0.004"/>
+  <testcase name="removeBehavior()" classname="gitlet.RepositoryTest" time="0.012"/>
+  <testcase name="addCommitFlowTracksFile()" classname="gitlet.RepositoryTest" time="0.007"/>
+  <testcase name="commitWithNoChangesPrintsMessage()" classname="gitlet.RepositoryTest" time="0.003"/>
+  <system-out><![CDATA[Initialized empty repository in /var/folders/2v/mkrw79n17bjbl2gss120q5gm0000gn/T/junit13591209809640159721/repo/.gitlet
+d1513bfb61e8682e7c576801d6618bcd79854dbc
+Initialized empty repository in /var/folders/2v/mkrw79n17bjbl2gss120q5gm0000gn/T/junit2438148836943565707/repo/.gitlet
+bd1c2e1461463fc03fe280a4b730203881c8179f
+Initialized empty repository in /var/folders/2v/mkrw79n17bjbl2gss120q5gm0000gn/T/junit11107774474270886237/repo/.gitlet
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
